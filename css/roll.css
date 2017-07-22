@@ -1,0 +1,29 @@
+
+header.projecttitle {
+    /*margin: 0 auto; padding: 40px 0 80px; color: #fff;*/
+    /*background-color: #ffffff;*/
+
+    margin: 0 auto; padding: 115px 0 80px; color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+
+    background-color: #ffffff;
+    /*background-image: -webkit-linear-gradient(rgba(255,255,255,.05) 2px, transparent 2px),*/
+}
+
+.roll button, .roll button { background: none; border: 0; color: #666; opacity: .5; box-shadow: none;outline: none}
+.roll button:hover, .roll button:hover { opacity: 1; }
+.roll button:disabled, .roll button:disabled { opacity: .2; }
+
+.roll .forward, .roll .backward { float: left;  height: 200px; font-size: 60px; }
+.roll .forward { float: right; }
+
+.forward{
+    padding-right: 15%;
+}
+.backward{
+    padding-left: 10%;
+}
+
+.roll .frame { margin: 0 auto; overflow: hidden; text-shadow: none; }
+.roll .frame ul { list-style: none; margin: 0; padding: 0; height: 100%;}
+.roll .frame ul li { float: left; height: 100%;width: 280px; padding: 0; color: #3a3c47; text-align: center; cursor: pointer; }
+/*.roll .frame ul li.active { color: #fff; background: #82bf4c; }*/

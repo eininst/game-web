@@ -1,0 +1,247 @@
+
+.container-fluid{
+    padding-right : 0px;
+    padding-left: 0px;
+}
+.navbar {
+    /*background: rgba(233, 233, 233, 0.3);*/
+    /*opacity: 1;*/
+    height: 65px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+
+.guidepost{
+    margin-top: -30px;
+    background-color: white;
+    width:60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 30px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 30px; /* Webkit浏览器的私有属性 */
+    padding-top: 10px;
+}
+
+.about{
+    height: auto;
+    max-height: 400px;
+    overflow: hidden;
+    margin-top: 80px;
+    background-color: #d9e1ec;
+}
+.about .col{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.roll .col{
+}
+.space{
+    display: block;
+    width: 20px;
+}
+/*.about-h{*/
+    /*min-width: 565px; ;*/
+/*}*/
+
+.banner-bg{
+    background: url("../imgs/bg.jpg");
+    background-size:100% 100%;
+    height:968px;
+}
+.pj h4{
+    margin-top: 30px;
+}
+.pj-small{
+    font-size: 12px;
+    height: 15px;
+    color: #6880a2;
+}
+.pj-text{
+    font-size: 12px;
+    color: #6880a2;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.height-100{
+    max-width: none;
+}
+.about .title{
+    width: 90%;
+    /*margin-left: 6%;*/
+}
+.a-text{
+    width: 90%;
+    /*margin-left: 3%;*/
+    color: #7587a1;
+    padding: 0 50px;
+    /*font-size: 14px;*/
+}
+.about a{
+    width: 34%;
+    height: 50px;
+    line-height: 48px;
+    border: solid 1px #3c5374;
+    background: none;
+    display: block;
+    margin-left: 27%;
+    color: #3c5374;
+    font-weight: 200;
+    margin-top: 40px;
+    animation: colorOut 1s;
+    -moz-animation: colorOut 1s;	/* Firefox */
+    -webkit-animation: colorOut 1s;	/* Safari 和 Chrome */
+    -o-animation: colorOut 1s;	/* Opera */
+}
+/*.about a:hover{*/
+    /*color: white;*/
+/*}*/
+
+.about a:hover{
+    animation: colorIn 1s;
+    -moz-animation: colorIn 1s;	/* Firefox */
+    -webkit-animation: colorIn 1s;	/* Safari 和 Chrome */
+    -o-animation: colorIn 1s;	/* Opera */
+}
+
+@keyframes colorIn
+{
+    from {background: none;color: #3c5374;}
+    to {background: #3c5374;color: white;}
+}
+@-moz-keyframes colorIn /* Firefox */
+{
+    from {background: none;color: #3c5374;}
+    to {background: #3c5374;color: white;}
+}
+@-webkit-keyframes colorIn /* Safari 和 Chrome */
+{
+    from {background: none;color: #3c5374;}
+    to {background: #3c5374;color: white;}
+}
+@-o-keyframes colorIn /* Opera */
+{
+    from {background: none;color: #3c5374;}
+    to {background: #3c5374;color: white;}
+}
+@keyframes colorOut
+{
+    from {background: #3c5374;color: white;}
+    to {background: none;color: #3c5374;}
+}
+@-moz-keyframes colorOut /* Firefox */
+{
+    from {background: #3c5374;color: white;}
+    to {background: none;color: #3c5374;}
+}
+@-webkit-keyframes colorOut /* Safari 和 Chrome */
+{
+    from {background: #3c5374;color: white;}
+    to {background: none;color: #3c5374;}
+}
+@-o-keyframes colorOut /* Opera */
+{
+    from {background: #3c5374;color: white;}
+    to {background: none;color: #3c5374;}
+}
+
+
+.about .mtitle:after{
+    right: 27%;
+}
+
+.news{
+    max-width: 1222px;
+    margin: 0 auto;
+    height: 420px;
+}
+.news a{
+    display: block;
+    height: 330px;
+    border: solid 1px #c8ced8;
+    margin: 0 25px;
+    margin-top: 30px;
+    overflow: hidden;
+    background: none;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;	/* Firefox 4 */
+    -webkit-transition: all 0.5s ease 0s;	/* Safari 和 Chrome */
+    -o-transition: all 0.5s ease 0s;	/* Opera */
+
+}
+.news a:hover{
+    height: 400px;
+    background: #18212e;
+    transform:translateY(-30px);
+    -moz-transform:translateY(-30px); /* Firefox 4 */
+    -webkit-transform:translateY(-30px); /* Safari and Chrome */
+    -o-transform:translateY(-30px); /* Opera */
+}
+.news a:hover h4,.news a:hover .description{
+    color: white;
+}
+.news a:hover .nEnter{
+    opacity: 1;
+}
+.newsItem{
+    width: 33.3%;
+    float: left;
+    text-align: left;
+}
+.news h4{
+    color: #222222;
+    font-size: 16px;
+    padding: 30px;
+    margin-top: 25px;
+    font-weight: 900;
+}
+.date{
+    position: absolute;
+    top: auto;
+    margin-bottom: 0;
+    height: 100px;
+    background: #ccd3dd;
+    bottom: 0;
+    width: 100%;
+}
+.nEnter{
+    position: absolute;
+    top: auto;
+    color: white;
+    bottom: 31px;
+    right: 36px;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    -moz-border-radius: 19px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 19px; /* Webkit浏览器的私有属性 */
+    background: #18212e;
+    opacity: 0;
+}
+.description{
+    font-size: 13px;
+    color: #777777;
+    padding: 0 35px;
+}
+.date span{
+    display: block;
+    margin-left: 35px;
+    color: #777;
+}
+.md{
+    font-size: 42px;
+    font-weight:200;
+    margin-top: 15px;
+    line-height: 50px;
+}
+.year{
+    font-size: 12px;
+}

@@ -1,0 +1,25 @@
+.root,.article{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: auto;
+    max-width: 1280px;
+    color: #bbb;
+}
+.root a{
+    color: #bbb;
+    padding: 0 5px;
+}
+.root a:hover,.root span{
+    color: #222;
+}
+.article{
+    line-height: 28px;
+    color: #222;
+    text-align: left;
+    text-indent: 30px;
+}
+.article img{
+    max-width: 1000px;
+    margin: 20px auto;
+    display: block;
+}

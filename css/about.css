@@ -1,0 +1,89 @@
+a{
+    border-radius: 20px;
+}
+.detail{
+    background: #f1f1f1;
+    padding: 50px 60px;
+    margin-top: 20px;
+    text-align: left;
+    text-indent: 30px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.detail img{
+    max-width: 1000px;
+    margin: 20px auto;
+    display: block;
+}
+.row{
+    background: #f1f1f1;
+    text-align: left;
+}
+.contact{
+    padding-left: 10%;
+}
+.contact h4{
+    font-size: 24px;
+    margin-top: 12%;
+    font-weight: 400;
+}
+.contact p{
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.pill{
+    color: black;
+    font-size: 16px;
+    padding-bottom: 20px;
+    margin-left: 16px;
+}
+.pill li{
+    margin-top: -10px;
+    float: left;
+    margin-left: 14px;
+    width: 100px;
+    height: 36px;
+}
+.pill li:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+.pill li:hover>a{
+    color: white;
+}
+
+
+
+
+.pill li:focus{
+    background-color: black;
+    border-radius: 20px;
+}
+.pill li a:focus>.pill li{
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.pill .active a{
+    color: white;
+}
+.pill .active{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.pill li a{
+    color: black;
+    position: relative;
+    top:7px;
+}
